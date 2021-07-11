@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="baseStyle.css">
+    <link rel="stylesheet" href="style.css">   
+    <title>Robot Base</title>
+</head>
+<body>
+    <div class="city"> 
+    <h1> *RoboticArm control panel*</h1>
+
+
+
+    <form name="formArm" method = "POST" action="file.php">
+
+    <div>
+    <span id="v1"></span>
+    <input type="range" id="mot1" name="volume1" min="0" max="180">
+    <label for="volume1">motor1</label>
+    </div>
+    
+    <div>
+    <span id="v2"></span>
+    <input type="range" id="mot2" name="volume2" min="0" max="180">
+    <label for="volume2">motor2</label>
+    </div>
+    
+    <div>
+    <span id="v3"></span>
+    <input type="range" id="mot3" name="volume3" min="0" max="180">
+    <label for="volume3">motor3</label>
+    </div>
+    
+    <div>
+    <span id="v4"></span>
+    <input type="range" id="mot4" name="volume4" min="0" max="180">
+    <label for="volume4">motor4</label>
+    </div>
+    
+    <div>
+    <span id="v5"></span>
+    <input type="range" id="mot5" name="volume5" min="0" max="180">
+    <label for="volume5">motor5</label>
+    </div>
+    
+    <div>
+    <span id="v6"></span>
+    <input type="range" id="mot6" name="volume6" min="0" max="180">
+    <label for="volume6">motor6</label>
+    </div>
+    
+    <input type="submit" name="save" id="Submit" value="save">
+    <input type="submit" name="run" id="Run" value="run">
+    
+    </form> </div>
+    
+    
+    
+    <script src="script.js"></script>
+    
+
+    <div class="container">
+        <div class="leftSide">
+            <h1>Robot Base</h1>
+            <div class="forimg">
+            </div>
+        </div>
+
+        <form action="controlBase.php" method="post">
+            <div class="rightSide">
+                <div>
+                    <button type="submit" id="button" name="forward" value="Forward" class="forward">Forward</button>
+                </div>
+                <div>
+                    <button type="submit" id="button" name="left" value="Left" class="left">Left</button>
+                    <button type="submit" id="button" name="stop" value="Stop" class="stop">Stop</button>
+                    <button type="submit" id="button" name="backward" value="Backward" class="backward">Backward</button>
+                </div>
+                <div>
+                    <button type="submit" id="button" name="right" value="Right" class="right">Right</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

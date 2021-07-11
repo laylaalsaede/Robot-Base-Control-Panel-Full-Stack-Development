@@ -1,0 +1,185 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: #e8eaf8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (max-width: 517px) {
+    .container {
+        height: 600px;
+        width: 720px;
+        background-color: #464545d3;
+        border-radius: 15px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 50%;
+        padding: 10px;
+        display: inline-block;
+        text-align: center;
+    }
+    .city {
+        height: 600px;
+        width: 720px;
+        background-color: #464545d3;
+        border-radius: 15px;
+        position: absolute;
+        left: 50%;
+        top: 140%;
+        transform: translate(-50%, -50%);
+        max-width: 50%;
+        padding: 10px;
+        display: inline-block;
+        text-align: center;
+    }
+    h1 {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    button {
+        background: #ffffff;
+        color: #004b92;
+        font-size: 20px;
+        cursor: pointer;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .forward {
+        border-radius: 30px;
+        width: 180px;
+        height: 45px;
+        display: inline-block;
+    }
+
+    .backward {
+        border-radius: 30px;
+        width: 180px;
+        height: 45px;
+        display: inline-block;
+    }
+
+    .left {
+        border-radius: 30px;
+        width: 180px;
+        height: 45px;
+        display: inline-block;
+    }
+
+    .right {
+        border-radius: 30px;
+        width: 180px;
+        height: 45px;
+        display: inline-block;
+    }
+
+    #button:hover {
+        opacity: 0.7;
+    }
+
+    .stop {
+        height: 130px;
+        width: 130px;
+        border-radius: 50%;
+        margin: 20px 20px 20px 20px; 
+        display: inline-block;
+    }
+}
+
+
+@media (min-width: 518px) {
+    .container {
+        height: 450px;
+        width: 1200px;
+        background-color: #444444ce;
+        border-radius: 15px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        max-width: 70%;
+        display: grid;
+        grid-template-columns: 35% 75%;
+    }
+    .city {
+        height: 450px;
+        width: 1200px;
+        background-color: #444444ce;
+        border-radius: 15px;
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        max-width: 70%;
+        display: grid;
+        grid-template-columns: 35% 75%;
+    }
+  
+
+    h1 {
+        color: white;
+        font-size: 70px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+
+    button {
+        background: #ffffff;
+        color: #003d83;
+        font-size: 20px;
+        cursor: pointer;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .forward {
+        border-radius: 30px;
+        width: 200px;
+        height: 60px;
+        display: inline-block;
+    }
+
+    .backward {
+        border-radius: 30px;
+        width: 200px;
+        height: 60px;
+        display: inline-block;
+    }
+
+    .left {
+        border-radius: 30px;
+        width: 200px;
+        height: 60px;
+        display: inline-block;
+    }
+
+    .right {
+        border-radius: 30px;
+        width: 200px;
+        height: 60px;
+        display: inline-block;
+    }
+
+    #button:hover {
+        opacity: 0.7;
+    }
+
+    .stop {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        margin: 50px 20px 50px 20px; 
+        display: inline-block;
+    }
+}
