@@ -1,5 +1,5 @@
 # Robot-Base-Control-Panel-Full-Stack-Development
-This repository the second task for internship in smart methods is about creating Robot base control panel and And combining it with the arm control panel which gives the user the ability to control six servo motors with a slider for each one, allowing each servo motor to rotate between 0 and 180 degrees.
+This repository the second task for internship in smart methods is about creating Robot base control panel and combining it with the arm control panel which gives the user the ability to control six servo motors with a slider for each one, allowing each servo motor to rotate between 0 and 180 degrees.
 
 The Base Control panel allows the user to control the base movement horizontally in four directions, forward, backward, right and left through four buttons, and a fifth button to stop the Robot 
 **NOTE**
